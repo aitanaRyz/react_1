@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+  position: absolute; /* Posiciona el logo de manera absoluta */
+  top: 0;            /* Lo coloca en la parte superior */
+  left: 0;           /* Lo coloca en la parte izquierda */
+  margin: 20px;      /* Espacio opcional entre el logo y los bordes */
+  
+  
+}
+.nombre-manual{
+  position: absolute; /* Posiciona el texto de manera absoluta */
+  top: 0;            /* Lo coloca en la parte superior */
+  left: 50%;         /* Lo coloca en el centro horizontal */
+  transform: translateX(-50%); /* Centra exactamente el texto */
+  font-size: 24px;   /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  color: #61dafb;    /* Color del texto */
+  margin-top: 20px;  /* Espacio superior */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+.que-es{
+  height: 50vmin;
+  
+  position: absolute; /* Posiciona el logo de manera absoluta */
+  top: 15%;
+  left: 20px;           /* Lo coloca en la parte izquierda */
+  margin: 20px;      /* Espacio opcional entre el logo y los bordes */
+  z-index: 1;
+}
+
+.ejer{
+  height: 50vmin;
+  
+  position: absolute; /* Posiciona el logo de manera absoluta */
+  top: 50%;
+  left: 20px;           /* Lo coloca en la parte izquierda */
+  margin: 20px;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 20px;
+  
+}
+.boton {
+  margin: 20px; /* Espacio alrededor del botón */
+  padding: 10px 20px; /* Espacio interno del botón */
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+}
+
+.holam{
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.contenido-calculadora {
+  margin-top: 10px; /* Espacio entre el botón y el bloque de texto */
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 10px;
+  color: white;
+  width: 80%; /* Ancho del bloque de texto */
+  max-width: 600px; /* Ancho máximo */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

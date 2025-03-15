@@ -1,0 +1,7 @@
+.que-es{
+    height: 50vmin;
+    pointer-events: none;
+    position: absolute; /* Posiciona el logo de manera absoluta */
+    left: 0;           /* Lo coloca en la parte izquierda */
+    margin: 20px;      /* Espacio opcional entre el logo y los bordes */
+}
